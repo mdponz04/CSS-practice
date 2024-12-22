@@ -1,0 +1,48 @@
+/* Basic styles for layout */
+* {
+    font-size: 20px;
+    box-sizing: border-box;
+    color: rgb(0, 250, 38);
+}
+body {
+    background: none;
+    background-color: none;
+    height: 100%;
+}
+.list-container {
+    padding: 20px;
+}
+
+.list-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list-container ul li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    background: none;
+    cursor: pointer;
+}
+
+.pagination button:hover {
+    background-color: #ddd;
+}
+
+.pagination button.active {
+    background-color: #2c3e50;
+    color: white;
+}
